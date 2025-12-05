@@ -1,4 +1,4 @@
-# Flappy Bird Clone
+# Flappy Bird Game
 
 A clean, smooth, and optimized **Flappy Bird-style game** built using **HTML5**, **CSS3**, and **vanilla JavaScript**.  
 The game provides a polished user experience with fluid bird controls, intuitive restart mechanics, and a responsive pixel-art environment.
