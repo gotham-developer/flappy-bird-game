@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./images/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Flappy Bird Game</title>
+</head>
+
+<body>
+    <div class="background"></div>
+
+    <img src="./images/Bird.png" alt="bird" class="bird" id="bird-1" />
+
+    <div class="message">
+        Press SPACE or ENTER to Start
+        <p>Press UP / SPACE to Jump</p>
+        <p>Click or Tap also works</p>
+    </div>
+
+    <div class="score">
+        <span class="score_title"></span>
+        <span class="score_val"></span>
+    </div>
+
+    <div id="screen-warning" class="screen-warning">
+        This game is optimized for larger screens (laptops or desktops).
+        For the best experience, please switch to a bigger display.
+        <br><br>
+        <button id="close-warning">Continue</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
